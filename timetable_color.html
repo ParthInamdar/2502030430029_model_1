@@ -1,0 +1,79 @@
+<html>
+<head>
+    <title>Time Table</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 60%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: lightgray;
+        }
+
+        .blue {
+            background-color: lightblue;
+        }
+
+        .white {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Time Table</h2>
+
+    <table>
+        <tr>
+            <th>Day</th>
+            <th>Subject 1</th>
+            <th>Subject 2</th>
+            <th>Subject 3</th>
+        </tr>
+
+        <tr class="blue">
+            <td>Monday</td>
+            <td rowspan="2">Java</td>
+            <td>Python</td>
+            <td>C++</td>
+        </tr>
+
+        <tr class="white">
+            <td>Tuesday</td>
+            <td>CSS</td>
+            <td>JavaScript</td>
+        </tr>
+
+        <tr class="blue">
+            <td>Wednesday</td>
+            <td>Python</td>
+            <td colspan="2">Lab Practical</td>
+        </tr>
+
+        <tr class="white">
+            <td>Thursday</td>
+            <td>HTML</td>
+            <td>CSS</td>
+            <td>JavaScript</td>
+        </tr>
+
+        <tr class="blue">
+            <td>Friday</td>
+            <td>Python</td>
+            <td>C++</td>
+            <td>Java</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
