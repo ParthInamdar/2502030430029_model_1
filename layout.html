@@ -1,0 +1,55 @@
+<html>
+<head>
+<style>
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.box {
+    background: linear-gradient(
+        to right,
+        rgb(138, 68, 68),
+        rgb(103, 226, 103),
+        rgb(161, 161, 230)
+    );
+
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+/* Different sizes */
+
+.box1 {
+    width: 100px;
+    height: 100px;
+}
+
+.box2 {
+    width: 200px;
+    height: 150px;
+}
+
+.box3 {
+    width: 150px;
+    height: 80px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+
+</div>
+
+</body>
+</html>
