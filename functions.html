@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>Functions in JavaScript</title>
+
+    <style>
+        body {
+            font-size: 20px;
+            color: green;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Functions in JavaScript</h2>
+
+    <script>
+        function foo(p1)
+        {
+            if (typeof(p1) == "number")
+                return 0;
+
+            else if (typeof(p1) == "string")
+                return "zero";
+
+            else
+                return "No value or invalid type";
+        }
+
+        document.write(foo(1) + "<br>");
+        document.write(foo("abc") + "<br>");
+        document.write(foo() + "<br>");
+    </script>
+
+</body>
+</html>
