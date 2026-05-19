@@ -3,10 +3,12 @@ $(document).ready(function () {
     // Hero Button
     $(".hero-btn").click(function () {
         $("html, body").animate({
-            scrollTop: $("#recommendation").offset().top - 70
+            scrollTop: $("#recommendation").offset().top 
         }, 800);
     });
 
+
+    
     // Generate Plan
     $("#generate-btn").click(function () {
 
